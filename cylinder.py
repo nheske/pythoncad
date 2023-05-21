@@ -1,10 +1,4 @@
-# pythoncad
-
-* [viewstl]([http://example.com](https://www.viewstl.com/))
-* [tinkercad](https://www.tinkercad.com/things/l1mNvxmSD0k-super-krunk-sango/edit)
-
-To create a 3D CAD representation of a cylinder using Python, you can utilize the pyvista library. This library provides a simple interface to generate and visualize 3D geometries. Install the pyvista library by running pip install pyvista before running the following script:
-```import pyvista as pv
+import pyvista as pv
 
 # Define cylinder parameters
 radius = 1.0  # Radius of the cylinder
@@ -22,4 +16,3 @@ cylinder.save(output_file)
 plotter = pv.Plotter()
 plotter.add_mesh(cylinder, color='blue')
 plotter.show()
-```
